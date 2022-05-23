@@ -1,5 +1,5 @@
 # Dynasty CoreXY 3D Printer
-![Dynasty_Final_Render](https://github.com/Graysson94/Dynasty-3D-Printer/blob/main/Gallery/Dynasty_Scene_Ortographic.PNG)
+![Dynasty_Final_Render](https://github.com/Icarus3D/Dynasty-3D-Printer/blob/main/Gallery/Dynasty_Render_Ortographic.PNG)
 
 After having modified my printers a lot and tested several DIY printer kits like Voron and BLV MGN Cube, I wanted a printer that totally met my needs.
 I saw printers on the market that could correspond to my needs by modifying them. But I decided to challenge myself by developing my own printer.
@@ -33,7 +33,7 @@ If you are interested in my work, you can follow me on Instagram [@icarus_3d](ht
 * Automatic power off after print completion
 
 ## Frame
-![Dynasty_3D_Printer](https://github.com/Graysson94/Dynasty-3D-Printer/blob/main/Gallery/Dynasty_3D_Printer.JPG)
+![Dynasty_3D_Printer](https://github.com/Icarus3D/Dynasty-3D-Printer/blob/main/Gallery/Dynasty_3D_Printer.JPG)
 2040 aluminum profiles are used to obtain a rigid structure.
 All corners use 3mm aluminum plates coupled with M6 screws directly screwed to the profiles as hidden joints.
 The structure is very rigid, but it requires a lot of screws.
@@ -43,16 +43,16 @@ The enclosure is made of transparent and matte black 3mm plexiglass. Except for 
 Thanks to [coldzero.eu](https://www.coldzero.eu/) for the awesome [Custom Dynasty Panels Kit](https://www.coldzero.eu/custom-dynasty-panels).
 
 ## Motion System
-![Dynasty_XY_Carriage](https://github.com/Graysson94/Dynasty-3D-Printer/blob/main/Gallery/Dynasty_Carriage.JPG)
+![Dynasty_XY_Carriage](https://github.com/Icarus3D/Dynasty-3D-Printer/blob/main/Gallery/Dynasty_Carriage.JPG)
 The moving system is an XY core system. The two motors used for the movement of the print head are placed at the back of the printer.
 The Y-axis uses two linear rails and the X-axis uses one linear rail fixed on a carbon tube.
 The head is moved by a 9mm 2GT belt.
 
-![Dynasty_Hotend](https://github.com/Graysson94/Dynasty-3D-Printer/blob/main/Gallery/Dynasty_Hotend.JPG)
+![Dynasty_Hotend](https://github.com/Icarus3D/Dynasty-3D-Printer/blob/main/Gallery/Dynasty_Hotend.JPG)
 The carriage of the hotend is an [EVA](https://main.eva-3d.page/). This is the same carriage platform used for the RatRig printers.
 
 ## Bed
-![Dynasty_Bed](https://github.com/Graysson94/Dynasty-3D-Printer/blob/main/Gallery/Dynasty_Bed_Support.JPG)
+![Dynasty_Bed](https://github.com/Icarus3D/Dynasty-3D-Printer/blob/main/Gallery/Dynasty_Bed_Support.JPG)
 The bed used is a 329x329x6mm cast tooling plate from RatRig.
 There is a magnetic plate on top with a flexplate powder coated PEI.
 The bed can be heated up to 110°C with a 750W heating pad.
@@ -63,21 +63,21 @@ The supports are screwed to linear rails and are moved by TR8 lead screws and Ne
 These three motors, coupled with the BLTouch sensor, allow the automatic leveling of the bed . There is a link to a [video of the start gcode macro](https://www.youtube.com/watch?v=Yhw2lbUx1_E&t=1s).
 
 ## Electronics
-![Dynasty_Open_Bay](https://github.com/Graysson94/Dynasty-3D-Printer/blob/main/Gallery/Dynatsy_Open_Electronic_Bay.JPG)
+![Dynasty_Open_Bay](https://github.com/Icarus3D/Dynasty-3D-Printer/blob/main/Gallery/Dynatsy_Open_Electronic_Bay.JPG)
 All the electronic components are installed in the electrical bay. Each component is fixed on a 35mm DIN rail with a bracket. The cables are all stored in a 40mm wiring duct.
 The electrical bay allows easy access to all electronics and protects the components from the temperature of the printing area.
 The printer has a 230V socket at the back. This is directly connected to the emergency stop button on the front panel.
 The shutdown button is connected in parallel with the main SSR. Once the printer is switched on with the button, the SSR takes over and the printer can be switched off either via the web interface or directly with the emergency stop button.
-The 24V power supply powers the Octopus V1.1 motherboard and the 5V power supply powers the Rapsberry Pi. Most of the components are connected to the motherboard except for the screen and the webcam. The details of the connections are explained in the [Wiring Diagram](https://github.com/Graysson94/Dynasty-3D-Printer/tree/main/Wiring%20Diagram) folder.
+The 24V power supply powers the Octopus V1.1 motherboard and the 5V power supply powers the Rapsberry Pi. Most of the components are connected to the motherboard except for the screen and the webcam. The details of the connections are explained in the [Wiring Diagram](https://github.com/Icarus3D/Dynasty-3D-Printer/tree/main/Wiring%20Diagram) folder.
 
 ## Firmware
-![Mainsail_Screenshot](https://github.com/Graysson94/Dynasty-3D-Printer/blob/main/Gallery/Mainsail_Screenshot.PNG)
+![Mainsail_Screenshot](https://github.com/Icarus3D/Dynasty-3D-Printer/blob/main/Gallery/Mainsail_Screenshot.PNG)
 The printer uses the [Klipper firmware](https://github.com/Klipper3d/klipper).
 You can use third-party Moonraker components that allow you to add other functionalities.
 Like the [Moonraker timelapse](https://github.com/mainsail-crew/moonraker-timelapse) feature that allows you to make timelapse videos of your prints very easily. This feature was very useful for me to understand the failures of my first prints.
 There is also a [Moonraker bot telegram](https://github.com/nlef/moonraker-telegram-bot) that allows you to regularly receive the status of the current print with an image or a short video. If the printing has failed, it is also possible to stop the printing. All this can be done outside the local network.
 The user interface used is [Mainsail](https://github.com/mainsail-crew/mainsail). It's an excellent interface with a lot of features and is regularly updated.
-All configuration files of the printer are available in the [Firmware](https://github.com/Graysson94/Dynasty-3D-Printer/tree/main/Firmware) folder.
+All configuration files of the printer are available in the [Firmware](https://github.com/Icarus3D/Dynasty-3D-Printer/tree/main/Firmware) folder.
 
 ## Inspirations
 The creation of the Dynasty printer was inspired by this open source printers. Thanks to their creator and their community.
@@ -88,6 +88,6 @@ The creation of the Dynasty printer was inspired by this open source printers. T
 
 ## License
 The Dynasty 3D printer uses the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
-![Dynasty_License](https://github.com/Graysson94/Dynasty-3D-Printer/blob/main/Gallery/License.PNG)
+![Dynasty_License](https://github.com/Icarus3D/Dynasty-3D-Printer/blob/main/Gallery/License.PNG)
 
-:exclamation: All 3D models created by other designers and their remixes used for this printer retain their original license. For more details, see the [3MFs STLs](https://github.com/Graysson94/Dynasty-3D-Printer/tree/main/3MFs%20STLs) folder. :exclamation:
+:exclamation: All 3D models created by other designers and their remixes used for this printer retain their original license. For more details, see the [3MFs STLs](https://github.com/Icarus3D/Dynasty-3D-Printer/tree/main/3MFs%20STLs) folder. :exclamation:
